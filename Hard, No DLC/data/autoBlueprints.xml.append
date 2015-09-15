@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<shipBlueprint name="BOSS_SPECIAL_HARD_NODLC" layout="boss_1" img="boss_1">
+	<class>Rebel Flagship</class>
+	<minSector>1</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<artillery power="4" max="4" room="9" start="true" weapon="ARTILLERY_BOSS_1" />
+		<artillery power="4" max="4" room="10" start="true" weapon="ARTILLERY_BOSS_2" />
+		<artillery power="3" max="4" room="14" start="true" weapon="ARTILLERY_BOSS_3" />
+		<artillery power="2" max="4" room="18" start="true" weapon="ARTILLERY_BOSS_4" />
+		<cloaking power="2" max="3" room="15" start="true" />
+		<doors power="3" max="3" room="17" start="true" />
+		<drones power="1" max="10" room="12" start="true" />
+		<engines power="2" max="10" room="8" start="true" />
+		<medbay power="3" max="3" room="5" start="true" />
+		<oxygen power="2" max="3" room="7" start="true" />
+		<pilot power="3" max="3" room="0" start="true" />
+		<sensors power="2" max="3" room="13" start="true" />
+		<shields power="2" max="8" room="1" start="true" />
+		<teleporter power="2" max="3" room="3" start="true" />
+	</systemList>
+	<weaponSlots>4</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="4" />
+	<droneList drones="0" count="2" />
+	<health amount="22" />
+	<maxPower amount="42" />
+	<crewCount amount="10" max="10" class="human" />
+	<boardingAI>sabotage</boardingAI>
+</shipBlueprint>
+
